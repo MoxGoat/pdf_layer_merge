@@ -85,7 +85,7 @@ Merge two PDF files uploaded directly.
 **Sample call using the test files in `/data`:**
 
 ```cmd
-curl -X POST http://localhost:8080/api/merge -F "file1=@data\Layout_merge_1.pdf" -F "file2=@data\Layout_merge_2.pdf" -o "data\merged.pdf"
+curl -X POST http://localhost:8080/api/merge -F "file1=@C:\side_projects\pdf_layer_merge\data\Layout_merge_1.pdf" -F "file2=@C:\side_projects\pdf_layer_merge\data\Layout_merge_2.pdf" -o "C:\side_projects\pdf_layer_merge\data\merged.pdf"
 ```
 
 ---
